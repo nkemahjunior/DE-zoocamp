@@ -4,5 +4,6 @@
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y python3-pip python3.12-venv && python3 -m venv /workspaces/DE-zoocamp/dbt-env && /workspaces/DE-zoocamp/dbt-env/bin/pip install dbt-core dbt-bigquery && echo 'source /workspaces/DE-zoocamp/dbt-env/bin/activate' >> ~/.zshrc",
   "postStartCommand": "sudo iptables-legacy -P FORWARD ACCEPT"
 }

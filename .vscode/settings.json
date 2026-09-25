@@ -1,0 +1,3 @@
+{
+    "dbt.dbtPythonPathOverride": "/workspaces/DE-zoocamp/dbt-env/bin/python3"
+}
