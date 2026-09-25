@@ -220,3 +220,5 @@ __marimo__/
 
 *.parquet
 gcp-service-account.json
+
+dbt-env/
