@@ -222,3 +222,9 @@ __marimo__/
 gcp-service-account.json
 
 dbt-env/
+
+batch/data
+batch/notebooks/fhvhv
+batch/notebooks/fhvhv_tripdata_2021-01.csv
+batch/notebooks/head.csv
+batch/taxi_zone_lookup.csv
